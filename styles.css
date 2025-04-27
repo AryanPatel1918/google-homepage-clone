@@ -25,7 +25,8 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 18px;
+    font-size: 18px;
 }
 
 section {
@@ -67,10 +68,12 @@ main {
     justify-content: center;
     gap: 24px;
     padding: 0 28px;
+    margin-bottom: 200px;
 }
 
 .header-text {
     font-size: 5.5em;
+    font-weight: lighter;
     font-family: Arial, sans-serif;
     color: white;
 }
@@ -78,7 +81,7 @@ main {
 .search-bar {
     display: flex;
     width: 100%;
-    max-width: 590px;
+    max-width: 750px;
     margin: 0 auto;
     gap: 14px;
     padding: 14px;
@@ -166,7 +169,7 @@ footer > section:last-child {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 footer > section:last-child > div:first-child > a:last-child {
