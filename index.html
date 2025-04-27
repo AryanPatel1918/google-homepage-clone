@@ -5,46 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google Homepage Clone</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
         <header>
             <nav>
-                <a href="#add_a_link">
+                <a class="gray-link" href="#add_a_link">
                     <p>About</p>              
                 </a>
-                <a href="#add_a_link">
+                <a class="gray-link" href="#add_a_link">
                     <p>Store</p>              
                 </a>
             </nav>
             <section>
-                <a href="#add_a_link">
+                <a class="white-link" href="#add_a_link">
                     <p>Gmail</p>
                 </a>
-                <a href="#add_a_link">
+                <a class="white-link" href="#add_a_link">
                     <p>Images</p>
                 </a>
-                <a href="#add_a_link">
-                    <!-- <p>Images</p> -->
+                <a class="white-link" href="#add_a_link">
+                    <div class="nine-dots">
+                        <i class="fa-solid fa-braille"></i>
+                    </div>
                 </a>
                 <a href="#add_a_link">
-                    <!-- <p>Images</p> -->
+                    <img src="public/arkham_knight.jpg" alt="Profile Pic">
                 </a>
             </section>
         </header>
 
         <main>
             <div>
-                <h1>Google!</h1>
+                <h1 class="header-text">Google</h1>
             </div>
-            <div>
+            <div class="search-bar">
+                <div class="search-icon-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
                 <input type="text">
-                <div>
-                    <button>icon</button>
-                    <button>icon</button>
+                <div class="icon-button-container">
+                    <button class="icon-button">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                    <button class="icon-button">
+                        <i class="fa-solid fa-camera"></i>
+                    </button>
                 </div>
             </div>
-            <div>
+            <div class="search-buttons-container">
                 <button>
                     <p>Google Search</p>
                 </button>
@@ -52,7 +62,7 @@
                     <p>I'm Feeling Lucky</p>
                 </button>
             </div>
-            <div>
+            <div class="language-selection">
                 <p>Google offered in: <span>Français</span></p>
             </div>
         </main>
@@ -62,12 +72,12 @@
                 <p>Canada</p>
             </section>
             <section>
-                <div>
+                <div class="footer-link">
                     <a>Advertising</a>
                     <a>Business</a>
-                    <a>How Search Works</a>
+                    <a>How Search works</a>
                 </div>
-                <div>
+                <div class="footer-link">
                     <a>Privacy</a>
                     <a>Terms</a>
                     <a>Settings</a>
